@@ -5,6 +5,11 @@ description: 互换友链的朋友请把信息发送到我的邮箱(名称、链
 permalink: /friends/
 list:
   -
+    name: 二猫子
+    link: https://ermao.net
+    avatar: https://www.ermao.net/images/logo.svg
+    desc: 二猫子的个人博客，记录生活、技术。
+  -
     name: pengzhanbo
     link: https://github.com/pengzhanbo
     avatar: https://github.com/pengzhanbo.png

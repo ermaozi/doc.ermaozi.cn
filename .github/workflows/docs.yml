@@ -1,12 +1,9 @@
 name: docs
 
 on:
-  # 每当 push 到 main 分支时触发部署
+  # 暂时不需要自动部署
   push:
-    branches: [main]
-  # 手动触发部署
-  workflow_dispatch:
-
+    branches: [no]
 jobs:
   docs:
     runs-on: ubuntu-latest
