@@ -11,13 +11,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@vuepress/bundler-vite": "^2.0.0-rc.15",
-    "vuepress": "^2.0.0-rc.15",
-    "vuepress-theme-plume": "1.0.0-rc.98"
+    "@vuepress/bundler-vite": "2.0.0-rc.18",
+    "vuepress": "2.0.0-rc.18",
+    "vuepress-theme-plume": "1.0.0-rc.120"
   },
   "dependencies": {
-    "@vuepress/client": "^2.0.0-rc.15",
+    "@vuepress/client": "2.0.0-rc.18",
     "doc.ermaozi.cn": "file:",
-    "vue": "^3.4.38"
+    "vue": "^3.5.13"
   }
 }
