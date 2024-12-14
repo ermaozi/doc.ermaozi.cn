@@ -1,6 +1,8 @@
 import { defineUserConfig } from 'vuepress'
 import { viteBundler } from '@vuepress/bundler-vite'
 import { plumeTheme } from 'vuepress-theme-plume'
+import notes from './notes'
+
 
 export default defineUserConfig({
   lang: 'zh-CN',
@@ -11,13 +13,12 @@ export default defineUserConfig({
   ],
   theme: plumeTheme({
     logo: '/images/logo.svg',
-    home: '/',
+    home: '/doc/',
+    notes,
     hostname: 'https://doc.ermaozi.cn',
     footer: { message: "© 2024 二猫子 📧 <a href='mailto:admin@ermao.net'>admin@ermao.net</a><br><a href='https://beian.miit.gov.cn'> 陕ICP备2022002093号 </a>" },
     navbar: [
-      { text: '首页', link: '/blog/' },
-      { text: '标签', link: '/blog/tags/' },
-      { text: '归档', link: '/blog/archives/' },
+      { text: '文档', link: '/doc/' },
       { text: '友链' , link: '/friends/'},
     ],
     profile: {
